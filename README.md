@@ -27,3 +27,7 @@ This project marks the beginning of my journey into web development. It helped m
 - Improve support for in-browser PDF export
 - Enhance accessibility with ARIA roles and contrast checks
 - Optimize layout further for printing
+
+## View CV
+
+Check it out: [CV Layout (GitHub Pages)](https://sudo-j182.github.io/cv-page/)
