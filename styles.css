@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+    font-size: 0.8rem;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+p, li {
+  font-size: 0.75rem;
+}
+
+#Header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#Header p {
+  font-size: 0.65rem;
+  margin: 2px 0;
+}
+#section {
+  box-shadow: 0px 0px 3px rgba(0,0,0.5);
+  border-radius: 3px;
+}
+#section h2 {
+  margin-bottom: 2px;
+}
+#section p, #section ul {
+  margin-bottom: 2px;
+}
+
+#professional-profile, #key-skills, #education-certificates, 
+#work-experience, #technical-projects, #additional-attributes {
+  background-color: rgba(245, 245, 245, 1); 
+  padding: 3px;
+  margin: 3px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0,0.5); 
+  border-radius: 3px;
+}
+
+#professional-profile h2, #key-skills h2, #education-certificates h2, 
+#work-experience h2, #technical-projects h2, #additional-attributes h2 {
+  border-bottom: 1px solid red; 
+  padding-bottom: 2px;
+}
+
+#professional-profile h3, #key-skills h3, #education-certificates h3,
+#work-experience h3, #technical-projects h3 {
+    border-bottom: 1px solid red;
+    padding: 3px;
+}
+
+@media (max-width: 768px) {
+  #Header h1 {
+    font-size: 1.25rem;
+  }
+  #Header p {
+    color: white;
+    font-size: 0.65rem;
+  }
+
+  section {
+    margin: 3px;
+    padding: 3px;
+  }
+
+  ul {
+    margin-bottom: 2px;
+    padding-left: 10px;
+  }
+
+  li {
+    margin-bottom: 1px;
+  }
+
+  button {
+    padding: 3px 5px;
+    font-size: 0.7rem;
+  }
+}
