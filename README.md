@@ -1,26 +1,33 @@
-# HTML/CSS CV Layout
+# cv-page
 
-A clean, responsive CV layout made with just HTML and CSS. It was built as a way to learn how to structure content properly using semantic tags and keep things looking good across all screen sizes.
+This was the first project I built after deciding to pursue a career in web development. It introduced me to the practical use of HTML and CSS and gave me a solid understanding of how structure, layout, and styling work together in a real-world context.
+
+The aim was to create a simple, professional CV that could be viewed online or exported as a PDF. Working on this helped me focus on writing clean, semantic code and building something that looks polished without relying on frameworks.
 
 ## Features
 
-- Fully responsive design
-- One-page layout
-- Semantic HTML5 structure
-- Clear, easy-to-read formatting
+- Fully responsive layout for desktop and mobile
+- Semantic HTML5 used throughout for clarity and accessibility
+- Clean design using the Montserrat font
+- Download button linking to externally hosted CV PDF
+- Built using only HTML and CSS, no external frameworks
 
-## Planned Updates
+## Technologies Used
 
-- Optional printable PDF styling
-- Dark mode toggle
-- Custom font loading via assets
-- Expandable project and experience sections
+- HTML
+- CSS
 
-## Live Demo
+## Why This Project Matters
 
-View it on GitHub Pages:  
-[https://sudo-j182.github.io/CV-Layout](https://sudo-j182.github.io/CV-Layout)
+This project marks the beginning of my journey into web development. It helped me move from theory to practice and gave me the foundation I needed to build more complex tools. Everything I’ve done since such as my password generator and pixel editor, grew from what I learned here. It’s a simple page, but it played an important role in getting me started.
 
-## How It Was Built
+## Future Improvements
 
-This project was a starting point for learning web development. It focuses on layout, clean markup, and visual clarity — all without using any JavaScript or frameworks. Great for building a personal CV or resume site from scratch.
+- Add a dark mode toggle
+- Improve support for in-browser PDF export
+- Enhance accessibility with ARIA roles and contrast checks
+- Optimize layout further for printing
+
+## View CV
+
+Check it out: [CV Layout (GitHub Pages)](https://sudo-j182.github.io/cv-page/)
